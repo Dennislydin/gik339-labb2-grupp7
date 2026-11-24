@@ -1,6 +1,6 @@
 // Uppgift 4
 // Variabel 1
-const checkboxStyle = document.getElementsByName('divStyle')[0];
+const checkboxStyle = document.getElementById('divStyle');
 
 // Variabel 2
 const textfieldElement = document.querySelectorAll('.textfield');
