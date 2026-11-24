@@ -12,7 +12,7 @@ const buttonElement = document.querySelector('#buttonElement');
 const divElement = document.getElementsByClassName('container')[0];
 
 // Uppgift 5
-// 
+// Funktion för eventlyssnare till textfälten
 function handleEvent(e) {
     console.log("Avsändaren:" , e.target);
     const idAttribute = e.target.id;
